@@ -1,0 +1,45 @@
+{
+  "app": "VisualYolo",
+  "app_version": "0.3.0",
+  "created_at": "2026-10-13T08:47:25",
+  "run_id": "brackish_200",
+  "ultralytics_version": "8.4.108",
+  "ultralytics_pin": "8.4.108",
+  "dataset_root_original": "C:\\SmartBay\\DataSets\\Brackish",
+  "dataset_fingerprint": "3d684f681fc6cc71",
+  "project_name": "Brackish",
+  "split_counts": {
+    "train": {
+      "images": 11738,
+      "labels": 11738
+    },
+    "valid": {
+      "images": 1467,
+      "labels": 1467
+    },
+    "test": {
+      "images": 1468,
+      "labels": 1468
+    }
+  },
+  "train_config": {
+    "run_id": "brackish_200",
+    "model": "yolo11n.pt",
+    "epochs": 200,
+    "imgsz": 640,
+    "batch": 16,
+    "device": "0",
+    "seed": 42,
+    "save_period": 5,
+    "conf": 0.25,
+    "iou": 0.7,
+    "timing_probe_epochs": 5,
+    "project_name": "VisualYolo",
+    "exist_ok": true
+  },
+  "seed": 42,
+  "model": "yolo11n.pt",
+  "imgsz": 640,
+  "batch": 16,
+  "epochs": 200
+}
